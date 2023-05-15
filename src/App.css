@@ -187,3 +187,51 @@
 .NavBtn{
     text-decoration: none;
 }
+
+@media screen and (max-width:440px) {
+    .mainBody{
+        background-color: #E7CBCB;
+        height:70vh;
+    }
+    .ptitle{
+        padding-top: 17vh;
+        text-align: center;
+        margin-right: 10rem;
+        font-size: xx-large;
+        color: black;
+        font-family: 'Rock Salt', cursive;
+    }
+/* css for About */
+.bodyAbout{ 
+    height:150vh; 
+    }    
+/* css  for skill */
+.skillBody{
+    background-color: #E7CBCB;
+    height:70rem;
+}
+}
+
+@media screen and (max-width:376px) {
+    .mainBody{
+        background-color: #E7CBCB;
+        height:110vh;
+    }
+    .ptitle{
+        padding-top: 17vh;
+        text-align: center;
+        margin-right: 10rem;
+        font-size: xx-large;
+        color: black;
+        font-family: 'Rock Salt', cursive;
+    }
+/* css for About */
+.bodyAbout{ 
+    height:200vh; 
+    }    
+/* css  for skill */
+.skillBody{
+    background-color: #E7CBCB;
+    height:70rem;
+}
+}
